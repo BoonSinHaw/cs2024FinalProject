@@ -1,10 +1,10 @@
 * {
+    color: #FFFFFF;
     font-size: x-large;
-    font-family: "Work Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -16,13 +16,6 @@ body {
         justify-content: space-around;
         background-color: #DEC7BE;
 
-
-
-    }
-
-    header * {
-        font-family: "Trirong", sans-serif;
-        color: #fff;
     }
 
     .AboutDropdown {
@@ -291,97 +284,4 @@ body {
     .product {
         padding-left: 5px;
     }
-}
-
-.footer {
-    background-color: #F5EFE9;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer * {
-    color: #7A6A62;
-}
-
-footer #logo {
-    margin: 0;
-}
-
-.footerdescription {
-    padding: 100px;
-    width: 13%;
-}
-
-.description {
-    padding-top: 20px;
-}
-
-.socialmedia {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    padding-top: 20px;
-}
-
-.socialmedia img {
-    width: 30px;
-}
-
-.socialmedia a {
-    padding-right: 20px;
-}
-
-.aboutfooter {
-    padding: 100px;
-    width: 13%;
-
-}
-
-.AboutTitle {
-    color: #5A4A42;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.aboutfooter a {
-    display: block;              
-    text-decoration: none;
-    padding-top: 10px;
-}
-
-.Discoverfooter {
-    padding: 100px;
-    width: 13%;
-
-}
-
-.DiscoverTitle {
-    color: #5A4A42;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.Discoverfooter a {
-    display: block;              
-    text-decoration: none;
-    padding-top: 10px;
-
-}
-
-.Supportfooter {
-    padding: 100px;
-    width: 13%;
-
-}
-
-.SupportTitle {
-    color: #5A4A42;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.Supportfooter a {
-    display: block;              
-    text-decoration: none;
-    padding-top: 10px;
 }
