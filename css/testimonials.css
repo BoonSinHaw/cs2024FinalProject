@@ -1,0 +1,181 @@
+body {
+    background-color: #F7F3EE;
+
+}
+
+.testimonial-section {
+    color: #210B02;
+    padding: 48px 20px 64px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    font-size: 5vw;
+    line-height: 1.15;
+    font-weight: normal;
+    margin: 0 0 10px;
+    letter-spacing: 0.2px;
+    font-family: "Trirong", serif;
+
+
+}
+
+.testimonial-section .subhead {
+    color: #210B02;
+    font-size: 2vw;
+    margin: 0 auto 36px;
+}
+
+.testimonial-section .video-box {
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto 32px;
+    background: var(--card);
+    border-radius: 24px;
+    aspect-ratio: 16 / 9;
+    display: grid;
+    place-items: center;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.testimonial-section .quote {
+    text-align: left;
+    max-width: 60%;
+    margin: 24px auto 0;
+    padding-left: 16px;
+    border-left: 2px solid #210B02;
+}
+
+.testimonial-section .quote p {
+    margin: 0 0 12px;
+    font-size: 2vw;
+    line-height: 1.6;
+}
+
+.testimonial-section .quote cite {
+    display: block;
+    color: #210B02;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+.reviews-section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #2b1b16;
+}
+
+.reviews-section h2 {
+    font-family: "Trirong", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 5vw;
+    font-weight: normal;
+}
+
+.reviews-grid {
+    display: grid;
+    gap: 22px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.review-card {
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 190px;
+}
+
+.stars {
+    letter-spacing: 3px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: 1vw;
+    line-height: 1.6;
+    margin: 0 0 14px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f3d6a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #5b463c;
+}
+
+.who strong {
+    display: block;
+    font-size: 1.2vw;
+}
+
+.who small {
+    font-size: 1vw;
+    color: #7a6d67;
+}
+
+.card1 {
+    background-color: #5e4b44;
+    color: #ffffff;
+}
+
+.card2 {
+    background-color: #e8c7bf;
+    color: #2b1b16;
+}
+
+.card3 {
+    background-color: #f1d7d1;
+    color: #2b1b16;
+}
+
+.card4 {
+    background-color: #6a564e;
+    color: #ffffff;
+}
+
+.card5 {
+    background-color: #5a4641;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+    .review-card p {
+        font-size: 3vw;
+    }
+
+    .who strong {
+        display: block;
+        font-size: 2vw;
+    }
+
+    .who small {
+        font-size: 2vw;
+        color: #7a6d67;
+    }
+
+}

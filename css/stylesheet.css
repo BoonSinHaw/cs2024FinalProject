@@ -1,12 +1,14 @@
 * {
     font-size: x-large;
     font-family: "Work Sans", sans-serif;
+
 }
 
 html,
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 @media (min-width: 1024px) {
@@ -34,6 +36,9 @@ body {
     .About {
         position: relative;
         display: inline-block;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
     }
 
     .DiscoverDropdown {
@@ -45,6 +50,9 @@ body {
     .Discover {
         position: relative;
         display: inline-block;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
     }
 
     .HelpDropdown {
@@ -56,6 +64,9 @@ body {
     .Help {
         position: relative;
         display: inline-block;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
     }
 
     .dropdown-content {
@@ -76,8 +87,7 @@ body {
     }
 
     .dropdown-content a:hover {
-        text-decoration: underline;
-
+        font-weight: bold;
     }
 
     .About:hover .dropdown-content {
@@ -119,6 +129,9 @@ body {
 
     .Product a {
         text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
     }
 
     .Menu {
@@ -140,6 +153,9 @@ body {
         font-size: 24px;
         font-weight: bold;
         text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
     }
 
 
@@ -162,7 +178,9 @@ body {
         text-decoration: none;
         width: 100%;
         color: white;
-
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
     }
 
     .shopnowbtn a:hover {
@@ -240,23 +258,30 @@ body {
         -webkit-tap-highlight-color: transparent;
     }
 
+
     .mobile-menu {
         position: fixed;
         top: 0;
-        right: -100%;
+        right: 0;
         width: 100%;
         height: 100vh;
+        transform: translateX(100%);
+        transition: transform .4s ease;
         background-color: #C9B5A8;
         color: #fff;
-        transition: right 0.4s ease;
-        padding: 20px;
-        box-sizing: border-box;
-        z-index: 5;
-        height: min-content;
+
     }
 
     .mobile-menu.open {
-        right: 0;
+        transform: translateX(0);
+    }
+
+    .mobile-content header {
+        width: 100%;
+        max-width: 100vw;
+        width: -webkit-fill-available;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     .mobile-menu ul {
@@ -300,7 +325,8 @@ body {
         background-color: #B84437;
         border-radius: 10px;
         text-align: center;
-        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .shopnow a:hover {
@@ -322,9 +348,10 @@ body {
     }
 
     .footerdescription {
-        padding: 100px;
         width: 100%;
         text-align: center;
+        padding-top: 50px;
+
     }
 
     .description {
@@ -334,9 +361,10 @@ body {
     }
 
     .socialmedia {
-        width: 40%;
+        width: 100%;
         padding-top: 20px;
         margin: auto;
+
     }
 
     .socialmedia img {
@@ -369,9 +397,9 @@ footer #logo a {
 }
 
 .aboutfooter {
-    padding: 100px;
-    width: 13%;
-
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 .AboutTitle {
@@ -387,8 +415,9 @@ footer #logo a {
 }
 
 .Discoverfooter {
-    padding: 100px;
-    width: 13%;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -406,8 +435,10 @@ footer #logo a {
 }
 
 .Supportfooter {
-    padding: 100px;
-    width: 13%;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
 
 }
 
