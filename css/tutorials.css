@@ -1,0 +1,335 @@
+body {
+    background-color: #F7F3EE;
+
+}
+
+.howto {
+    width: 90%;
+    margin: 0 auto;
+    padding: 6vw 0 8vw;
+    color: #210B02;
+}
+
+.howto h1 {
+    font-family: "Trirong", serif;
+    font-size: 4vw;
+    line-height: 1.15;
+    text-align: center;
+    font-weight: normal;
+}
+
+.howto .tagline {
+    font-size: 1.3vw;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 0 12vw;
+    color: #210B02;
+}
+
+.howto h2 {
+    font-family: "Trirong", serif;
+    font-size: 2vw;
+    line-height: 1.3;
+    margin: 0 0 2.2vw;
+    font-weight: 600;
+}
+
+.howto .video-box {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: grid;
+    place-items: center;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 1024px) {
+    .howto {
+        padding: 8vw 0 12vw;
+    }
+
+    .howto h1 {
+        font-size: 8vw;
+    }
+
+    .howto .tagline {
+        font-size: 3.4vw;
+        margin-bottom: 8vw;
+    }
+
+    .howto h2 {
+        font-size: 4.6vw;
+    }
+
+    .howto .video-box {
+        border-radius: 4vw;
+    }
+
+    .howto .video-box span {
+        font-size: 5vw
+    }
+}
+
+.steps-container {
+    color: #210B02;
+    max-width: 60%;
+    margin: 3rem auto;
+    padding: 2rem 1rem;
+}
+
+.steps-title {
+    font-family: 'trirong', serif;
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 2.5rem;
+    color: #210B02;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    position: relative;
+}
+
+.step {
+    position: relative;
+    text-align: center;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #210B02;
+}
+
+.step-badge {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #d9b9ad;
+    color: #210B02;
+    display: grid;
+    place-items: center;
+    font-family: 'Trirong', serif;
+    font-size: 1.6rem;
+    box-shadow: 5px 4px 1px rgba(7, 7, 7, 0.1);
+}
+
+.step-heading {
+    font-family: 'Trirong', serif;
+    font-size: 1.2rem;
+    color: #210B02;
+}
+
+.step-text {
+    max-width: 420px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #210B02;
+}
+
+.step-img {
+    width: 500px;
+    height: 500px;
+    background-color: #210B02;
+}
+
+
+@media (max-width: 1024px) {
+    .step-img {
+        display: none;
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .step {
+        min-height: unset;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .step-badge {
+        position: static;
+        margin-bottom: 1rem;
+    }
+
+    .step-heading {
+        margin-top: 0;
+    }
+}
+
+#s5 {
+    justify-content: start;
+
+}
+
+.comfort-container {
+    color: #210B02;
+    padding: 2rem 1rem;
+}
+
+.comfort-title {
+    text-align: center;
+    font-family: 'trirong', serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #210B02;
+    margin-bottom: 2.5rem;
+}
+
+.comfort-list {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.comfort-item {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.comfort-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    opacity: 0.7;
+    background-color: #210B02;
+
+}
+
+.comfort-text {
+    font-size: 1rem;
+    color: #210B02;
+    line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+
+    .comfort-title {
+        font-size: 5vw;
+    }
+
+    .comfort-list {
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+
+    .comfort-item {
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 1vw
+    }
+
+    .comfort-item p {
+
+        font-size: 5vw
+    }
+
+    .comfort-icon {
+        margin-top: 25px;
+        background-color: #210B02;
+        aspect-ratio: 1/1;
+        height: 80%;
+    }
+
+}
+
+.troubleshoot-container {
+    color: #210B02;
+    text-align: center;
+    margin: 4rem auto;
+    padding: 2rem 1rem;
+}
+
+.troubleshoot-title {
+    font-family: 'Trirong', serif;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #210B02;
+    margin-bottom: 2rem;
+}
+
+.troubleshoot-box {
+    background: linear-gradient(to bottom, #FCFAF4 0%, #D8BCB3 100%);
+    border-radius: 24px;
+    padding: 1.8rem 2rem;
+    margin: 1.5rem auto;
+    max-width: 80%;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.troubleshoot-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #210B02;
+    margin: 0.5rem 0;
+}
+
+.troubleshoot-box strong {
+    font-weight: 700;
+    color: #2b2b2b;
+}
+
+.troubleshoot-box hr {
+    border: none;
+    border-top: 1px solid #75685f;
+    margin: 0.8rem 0;
+    opacity: 0.7;
+}
+
+/* Button at bottom */
+.faq-button {
+    margin-top: 2rem;
+}
+
+.faq-link {
+    display: inline-block;
+    background-color: #73645C;
+    color: #FCFAF4;
+    padding: 0.7rem 1.6rem;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    font-family: 'Trirong', serif;
+
+}
+
+
+
+.faq-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 26px rgba(0, 0, 0, .18);
+    background: #62564f;
+}
+
+@media (max-width: 1024px) {
+    .troubleshoot-title {
+
+        font-size: 8vw;
+    }
+
+    .troubleshoot-box p {
+        font-size: 1vw;
+
+    }
+
+    .troubleshoot-box {
+        padding: 1.4rem 1.2rem;
+        border-radius: 16px;
+    }
+
+    .troubleshoot-box p {
+        font-size: 0.95rem;
+    }
+}

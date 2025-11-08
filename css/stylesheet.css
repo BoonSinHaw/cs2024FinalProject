@@ -8,10 +8,9 @@ html,
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     header {
         padding: 4px 39px 4px 39px;
         display: flex;
@@ -222,7 +221,102 @@ body {
 
 }
 
-@media (max-width:1023px) {
+
+.footer {
+    background-color: #F5EFE9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer * {
+    color: #7A6A62;
+}
+
+footer #logo a {
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+    font-weight: bold;
+    color: #4A2E25;
+    text-decoration: none;
+
+}
+
+
+.socialmedia a {
+    padding-right: 20px;
+}
+
+.aboutfooter {
+    padding: 100px;
+    width: 13%;
+
+}
+
+.AboutTitle {
+    color: #5A4A42;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.aboutfooter a {
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.Discoverfooter {
+    padding: 100px;
+    width: 13%;
+
+}
+
+.DiscoverTitle {
+    color: #5A4A42;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.Discoverfooter a {
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+
+.Supportfooter {
+    padding: 100px;
+    width: 13%;
+
+}
+
+.SupportTitle {
+    color: #5A4A42;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.Supportfooter a {
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+.PDPA {
+    background-color: #E5DDD5;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.PDPA a {
+    text-decoration: none;
+}
+
+@media (max-width:1024px) {
     .desktop-content {
         display: none;
     }
@@ -370,101 +464,23 @@ body {
     .socialmedia img {
         width: 30px;
     }
-}
 
-.footer {
-    background-color: #F5EFE9;
-    display: flex;
-    flex-wrap: wrap;
-}
+    .aboutfooter {
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
 
-footer * {
-    color: #7A6A62;
-}
+    .Discoverfooter {
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
 
-footer #logo a {
-    font-family: 'Bree Serif', serif;
-    margin: 0;
-    font-weight: bold;
-    color: #4A2E25;
-    text-decoration: none;
-
-}
-
-
-.socialmedia a {
-    padding-right: 20px;
-}
-
-.aboutfooter {
-    padding-top: 50px;
-    width: 100%;
-    text-align: center;
-}
-
-.AboutTitle {
-    color: #5A4A42;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.aboutfooter a {
-    display: block;
-    text-decoration: none;
-    padding-top: 10px;
-}
-
-.Discoverfooter {
-    padding-top: 50px;
-    width: 100%;
-    text-align: center;
-
-}
-
-.DiscoverTitle {
-    color: #5A4A42;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.Discoverfooter a {
-    display: block;
-    text-decoration: none;
-    padding-top: 10px;
-
-}
-
-.Supportfooter {
-    padding-top: 50px;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 50px;
-
-}
-
-.SupportTitle {
-    color: #5A4A42;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-.Supportfooter a {
-    display: block;
-    text-decoration: none;
-    padding-top: 10px;
-}
-
-footer a:hover {
-    font-weight: bold;
-}
-
-.PDPA {
-    background-color: #E5DDD5;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-}
-
-.PDPA a {
-    text-decoration: none;
+    .Supportfooter {
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
 }
