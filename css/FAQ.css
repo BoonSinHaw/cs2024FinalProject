@@ -1,0 +1,140 @@
+.title {
+    font-size: clamp(22px, 2.4vw, 32px);
+    color: #FCFAF4;
+    font-family: 'Trirong', serif;
+    background-color: #73645C;
+    padding: 100px;
+    padding-top: 200px;
+}
+
+.ipl-faq-section {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.ipl-faq-section .faq-title {
+    font-family: 'Trirong', serif;
+    font-size: clamp(22px, 2.4vw, 32px);
+    font-weight: normal;
+    color: #000000;
+    margin: 0 0 14px 0;
+}
+
+.ipl-faq-section .title-rule {
+    height: 2px;
+    background-color: #2B201B;
+    opacity: .7;
+    margin-bottom: 18px;
+}
+
+.ipl-faq-section .faq-item {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    align-items: start;
+    padding: 16px 0;
+    border-bottom: 1px solid #BFB2A9;
+}
+
+.ipl-faq-section .faq-num {
+    font-family: 'Trirong', serif;
+    font-size: clamp(18px, 2.1vw, 26px);
+    color: #8E8076;
+    line-height: 1;
+    padding-top: 2px;
+}
+
+.ipl-faq-section details {
+    width: 100%;
+}
+
+.ipl-faq-section details summary {
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Trirong', serif;
+    font-size: clamp(16px, 1.7vw, 20px);
+    color: #2B201B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-right: 6px;
+}
+
+.ipl-faq-section details summary::-webkit-details-marker {
+    display: none;
+}
+
+.ipl-faq-section details summary::after {
+    content: "+";
+    flex: 0 0 auto;
+    font-size: 20px;
+    color: #2B201B;
+    transform: translateY(-1px);
+}
+
+.ipl-faq-section details[open] summary::after {
+    content: "—";
+    font-weight: 600;
+}
+
+.ipl-faq-section .faq-body {
+    font-family: 'Trirong', serif;
+    color: #3A2F29;
+    font-size: clamp(13px, 1.3vw, 14px);
+    line-height: 1.6;
+    margin: 14px 0 2px 0;
+    max-width: 58ch;
+}
+
+@media (max-width: 520px) {
+    .ipl-faq-section .faq-item {
+        grid-template-columns: 50px 1fr;
+    }
+    .title{
+        padding: 50px;
+    }
+}
+
+.support-section {
+    text-align: center;
+    padding: 60px 20px 80px;
+}
+
+.support-section h2 {
+    font-size: clamp(26px, 2.8vw, 36px);
+    color: #000000;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+
+.support-section p {
+    color: #210B02;
+    font-family: 'Trirong', serif;
+    font-size: clamp(14px, 1.4vw, 16px);
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+.support-section .support-btn {
+    display: inline-block;
+    margin-top: 26px;
+    padding: 14px 34px;
+    border-radius: 40px;
+    background-color: #73645C;
+    color: #fff;
+    font-size: clamp(14px, 1.4vw, 16px);
+    text-decoration: none;
+    font-family: 'Trirong', serif;
+    transition: background-color 0.3s ease;
+}
+
+.support-section .support-btn:hover {
+    background-color: #4A2E25;
+}
+
+@media (max-width: 520px) {
+    .support-section {
+        padding: 50px 15px 70px;
+    }
+}
