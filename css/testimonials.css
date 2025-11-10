@@ -112,11 +112,10 @@ body {
     gap: 10px;
 }
 
-.avatar {
+.avatar img {
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: #f3d6a8;
     display: flex;
     align-items: center;
     justify-content: center;

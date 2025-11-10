@@ -163,7 +163,9 @@ body {
         margin: auto;
         display: flex;
         justify-content: end;
-        width: 15%;
+        width: 20%;
+        white-space: nowrap;
+
     }
 
     .shopnowbtn a {
