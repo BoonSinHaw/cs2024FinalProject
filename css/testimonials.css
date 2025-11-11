@@ -186,14 +186,26 @@ body {
 }
 
 #one small {
-    color: #FCFAF4;
+    color: #e2e1de;
 
 }
 #three small {
-    color: #FCFAF4;
+    color: #e2e1de;
 
 }
 #five small {
+    color: #e2e1de;
+
+}
+#one strong {
+    color: #FCFAF4;
+
+}
+#three strong {
+    color: #FCFAF4;
+
+}
+#five strong {
     color: #FCFAF4;
 
 }
