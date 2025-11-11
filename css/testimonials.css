@@ -175,3 +175,25 @@ body {
     }
 
 }
+
+#one,#three,#five {
+    background-color: #73645C;
+    color: #FCFAF4;
+}
+
+#two,#four,#six {
+    background-color: #D8BCB3;
+}
+
+#one small {
+    color: #FCFAF4;
+
+}
+#three small {
+    color: #FCFAF4;
+
+}
+#five small {
+    color: #FCFAF4;
+
+}
