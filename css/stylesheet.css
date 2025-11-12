@@ -1,6 +1,6 @@
 * {
     font-size: x-large;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", serif;
     color: #210B02;
 
 }
@@ -23,7 +23,7 @@ body {
     }
 
     header * {
-        font-family: "Trirong", sans-serif;
+        font-family: "Trirong", serif;
         color: #5A4A42;
     }
 
@@ -259,6 +259,7 @@ footer #logo a {
     color: #5A4A42;
     padding-bottom: 20px;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .aboutfooter a {
@@ -277,6 +278,8 @@ footer #logo a {
     color: #5A4A42;
     padding-bottom: 20px;
     font-weight: bold;
+    font-size: 1.1rem;
+
 }
 
 .Discoverfooter a {
@@ -296,6 +299,8 @@ footer #logo a {
     color: #5A4A42;
     padding-bottom: 20px;
     font-weight: bold;
+    font-size: 1.1rem;
+
 }
 
 .Supportfooter a {

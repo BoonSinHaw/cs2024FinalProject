@@ -51,7 +51,6 @@ body {
 }
 
 .about__text {
-    font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     font-size: clamp(1rem, 1.4vw, 1.125rem);
     line-height: 1.8;
     color: #5b5b5b;
@@ -131,7 +130,6 @@ body {
 }
 
 .pillar__text {
-    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     font-size: clamp(0.95rem, 1.2vw, 1.05rem);
     color: #777;
     line-height: 1.6;
@@ -285,7 +283,6 @@ body {
 }
 
 .commitment__text p {
-    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     color: #808080;
     font-size: clamp(0.96rem, 1.2vw, 1.03rem);
     line-height: 1.8;
@@ -312,7 +309,7 @@ body {
 }
 
 .stats__title {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Trirong", serif;
     font-weight: 500;
     color: #2e2e2e;
     font-size: clamp(2rem, 4.5vw, 3rem);
@@ -365,7 +362,6 @@ body {
 }
 
 .stat__label {
-    font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     color: #7f7f7f;
     font-size: clamp(0.9rem, 1.2vw, 1rem);
     margin-top: 6px;
@@ -390,7 +386,6 @@ body {
 }
 
 .join__subtitle {
-    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     font-size: clamp(1rem, 1.6vw, 1.25rem);
     color: #5c4a3f;
     margin-bottom: 2rem;
@@ -402,7 +397,6 @@ body {
     background-color: #7b675c;
     /* brownish-gray tone like screenshot */
     color: #fff;
-    font-family: "Inter", sans-serif;
     text-decoration: none;
     font-size: clamp(1rem, 1.3vw, 1.1rem);
     padding: 0.9rem 2.5rem;

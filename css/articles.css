@@ -11,7 +11,7 @@
   }
 
   .journal-container h1 {
-      font-family: "Trirong", sans-serif;
+      font-family: "Trirong", serif;
       font-size: clamp(1.8rem, 4vw, 3rem);
       font-weight: 500;
       margin: 0;
@@ -62,7 +62,7 @@
 
   .badge {
       align-self: flex-start;
-      font: 600 12px/1.1 "Trirong", sans-serif;
+      font: 600 12px/1.1 "Trirong", serif;
       color: #8b6f61;
       background: #f4e4d9;
       padding: 8px 12px;
@@ -72,7 +72,7 @@
   }
 
   .feature-title {
-      font: 500 clamp(1.6rem, 3.3vw, 3rem)/1.15 "Trirong", sans-serif;
+      font: 500 clamp(1.6rem, 3.3vw, 3rem)/1.15 "Trirong", serif;
       color: #2f2a26;
       margin: 0 0 14px 0;
   }
@@ -142,7 +142,7 @@
   .browse-title {
       font-size: 2.4rem;
       margin: 0 0 24px;
-      font-family: "Trirong", sans-serif;
+      font-family: "Trirong", serif;
       font-weight: normal;
 
   }
@@ -239,7 +239,7 @@
   }
 
   .badge {
-      font-family: "Trirong", sans-serif;
+      font-family: "Trirong", serif;
       align-self: flex-start;
       background: #f4e4d9;
       color: #8b6f61;
@@ -251,7 +251,7 @@
   }
 
   .article-title {
-      font-family: "Trirong", sans-serif;
+      font-family: "Trirong", serif;
       font-size: 500 clamp(1.6rem, 3.3vw, 3rem)/1.15;
       line-height: 1.25;
       margin: 0 0 12px;
