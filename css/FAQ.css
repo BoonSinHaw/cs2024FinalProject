@@ -91,7 +91,8 @@
     .ipl-faq-section .faq-item {
         grid-template-columns: 50px 1fr;
     }
-    .title{
+
+    .title {
         padding: 50px;
     }
 }
@@ -126,11 +127,14 @@
     font-size: clamp(14px, 1.4vw, 16px);
     text-decoration: none;
     font-family: 'Trirong', serif;
-    transition: background-color 0.3s ease;
+    transition: transform .22s ease, box-shadow .22s ease;
+
 }
 
 .support-section .support-btn:hover {
     background-color: #4A2E25;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
 @media (max-width: 520px) {
