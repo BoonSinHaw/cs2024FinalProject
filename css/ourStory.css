@@ -16,7 +16,7 @@ body {
 
 
 .hero h1 {
-    font-size: clamp(2rem, 6vw, 5rem);
+    font-size: clamp(1.8rem, 4vw, 3.8rem);
     font-weight: 500;
     color: #210B02;
     margin-bottom: 1rem;
@@ -25,7 +25,7 @@ body {
 }
 
 .hero p {
-    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-size: clamp(0.8rem, 2.1vw, 1.0rem);
     color: #777;
     line-height: 1.6;
 }
@@ -41,17 +41,18 @@ body {
 }
 
 .about__title {
-    font-size: clamp(2rem, 4.5vw, 3.2rem);
-    font-weight: 500;
-    line-height: 1.15;
-    margin: 0 0 16px;
+    font-size: clamp(1.4rem, 3vw, 2.6rem);
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 25px;
     color: #210B02;
     font-family: "Trirong", serif;
 
 }
 
 .about__text {
-    font-size: clamp(1rem, 1.4vw, 1.125rem);
+    font-size: clamp(0.6rem, 1.2vw, 1rem);
+    font-weight: 300;
     line-height: 1.8;
     color: #5b5b5b;
     margin: 0 0 18px;
@@ -81,7 +82,7 @@ body {
 }
 
 .pillars {
-    padding: 60px 20px 80px;
+    padding: 20px 20px 80px;
     text-align: center;
 }
 
@@ -89,15 +90,16 @@ body {
     max-width: 1100px;
     min-width: 80%;
     margin: 0 auto;
-    border-top: 2px solid #D8BCB3;
+    border-top: 1px solid #D8BCB3;
 
 }
 
 .pillars__title {
     font-family: "Trirong", serif;
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 500;
+    font-size: clamp(1.4rem, 3vw, 2.6rem);
+    font-weight: 400;
     color: #2e2e2e;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
 }
 
@@ -124,16 +126,18 @@ body {
 
 .pillar__heading {
     font-family: "Trirong", serif;
-    font-size: clamp(1.3rem, 2vw, 1.6rem);
+    font-size: clamp(1rem, 1.7vw, 1.2rem);
     color: #2e2e2e;
-    margin-bottom: 0.6rem;
+    margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .pillar__text {
-    font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
+    font-weight: 300;
     color: #777;
-    line-height: 1.6;
-    max-width: 300px;
+    line-height: 1.2;
+    max-width: 270px;
     margin: 0 auto;
 }
 
@@ -166,9 +170,9 @@ body {
 /* Text */
 .founder__title {
     font-family: "Trirong", serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #210B02;
-    font-size: clamp(1.8rem, 3.5vw, 2.2rem);
+    font-size: clamp(1.2rem, 2.8vw, 2.1rem);
     line-height: 1.2;
     margin: 0 0 16px;
 }
@@ -182,25 +186,26 @@ body {
 
 .founder__quote p {
     color: #757575;
-    font-size: clamp(1rem, 1.4vw, 1.1rem);
-    line-height: 1.9;
+    font-size: clamp(0.7rem, 1vw, 0.8rem);
+    font-weight: 300;
+    line-height: 1.5;
     font-style: italic;
     margin: 0;
 }
 
 .founder__byline {
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 .founder__name {
     color: #210B02;
-    font-size: clamp(1rem, 1.3vw, 1.05rem);
-    margin-bottom: 6px;
+    font-size: clamp(0.7rem, 1vw, 0.8rem);
+    margin-bottom: 2px;
 }
 
 .founder__role {
     color: #a0a0a0;
-    font-size: clamp(0.9rem, 1.1vw, 0.98rem);
+    font-size: clamp(0.7rem, 1vw, 0.8rem);
 }
 
 /* Responsive: stack on small screens */
@@ -228,9 +233,9 @@ body {
 
 .commitment__title {
     font-family: "Trirong", serif;
-    font-weight: 500;
+    font-size: clamp(1.4rem, 3vw, 2.6rem);
+    font-weight: 400;
     color: #210B02;
-    font-size: clamp(2rem, 4.6vw, 3rem);
     line-height: 1.2;
     margin: 0 0 28px;
 }
@@ -256,13 +261,13 @@ body {
 .commitment__item {
     display: grid;
     grid-template-columns: 44px 1fr;
-    column-gap: 18px;
+    column-gap: 12px;
     align-items: start;
 }
 
 .commitment__icon {
-    width: 44px;
-    height: 44px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background: #e3c9b9;
     /* soft beige circle */
@@ -270,22 +275,23 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) inset;
-    margin-top: 2px;
+    margin-top: 10px;
 }
 
 /* Text */
 .commitment__text h3 {
     font-family: "Trirong", serif;
     color: #210B02;
-    font-weight: 500;
-    font-size: clamp(1.05rem, 2vw, 1.25rem);
-    margin: 0 0 6px;
+    font-weight: 400;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+    margin: 5px 0 6px;
 }
 
 .commitment__text p {
     color: #808080;
-    font-size: clamp(0.96rem, 1.2vw, 1.03rem);
-    line-height: 1.8;
+    font-size: clamp(0.7rem, 0.8vw, 0.8rem);
+    font-weight: 300;
+    line-height: 1.5;
     margin: 0;
     max-width: 60ch;
 }
@@ -310,11 +316,11 @@ body {
 
 .stats__title {
     font-family: "Trirong", serif;
-    font-weight: 500;
     color: #2e2e2e;
-    font-size: clamp(2rem, 4.5vw, 3rem);
+    font-size: clamp(1.4rem, 3vw, 2.6rem);
+    font-weight: 400;
     line-height: 1.2;
-    margin: 0 0 26px;
+    margin: 0 0 30px;
 }
 
 /* Grid of cards */
@@ -348,8 +354,8 @@ body {
 .stat__value {
     font-family: "Trirong", serif;
     color: #7a5d46;
-    font-weight: 500;
-    font-size: clamp(1.8rem, 4.2vw, 2.6rem);
+    font-weight: 300;
+    font-size: clamp(1.6rem, 4.2vw, 2.6rem);
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -363,7 +369,8 @@ body {
 
 .stat__label {
     color: #7f7f7f;
-    font-size: clamp(0.9rem, 1.2vw, 1rem);
+    font-size: clamp(0.6rem, 0.8vw, 0.8rem);
+    font-weight: 300;
     margin-top: 6px;
 }
 
@@ -379,14 +386,15 @@ body {
 
 .join__title {
     font-family: "Trirong", serif;
-    font-size: clamp(2rem, 4.5vw, 3rem);
-    font-weight: 500;
+    font-size: clamp(1.4rem, 3vw, 2.6rem);
+    font-weight: 400;
     color: #210B02;
     margin-bottom: 1rem;
 }
 
 .join__subtitle {
-    font-size: clamp(1rem, 1.6vw, 1.25rem);
+    font-size: clamp(0.7rem, 0.8vw, 0.8rem);
+    font-weight: 300;
     color: #5c4a3f;
     margin-bottom: 2rem;
     line-height: 1.6;
@@ -398,8 +406,9 @@ body {
     /* brownish-gray tone like screenshot */
     color: #fff;
     text-decoration: none;
-    font-size: clamp(1rem, 1.3vw, 1.1rem);
-    padding: 0.9rem 2.5rem;
+    font-size: clamp(0.65rem, 0.8vw, 0.8rem);
+    font-weight: 250;
+    padding: 0.5rem 2rem;
     border-radius: 999px;
     transition: background 0.25s ease, transform 0.25s ease;
 }
