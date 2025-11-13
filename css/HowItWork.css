@@ -131,7 +131,7 @@ body {
 
 .circle {
     background-color: #E5C9C3;
-    color: #4C3F3A;
+    color: #62564f;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -147,7 +147,7 @@ body {
 }
 
 .card {
-    background-color: #876959;
+    background-color: #73645C;
     border-radius: 20px;
     padding: 15px;
     min-height: auto;
