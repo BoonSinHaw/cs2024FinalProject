@@ -353,6 +353,7 @@ body {
 
 @media (max-width: 768px) {
 
+
     .steps {
         flex-direction: column;
         align-items: center;
@@ -375,12 +376,16 @@ body {
 
     #bannerTitle {
         font-size: 8vw;
+        color: #210B02;
+
     }
 
     .bannerDescription p {
         width: 100%;
         padding-top: 20px;
         font-size: 4vw;
+        color: #210B02;
+
     }
 
     .ShopBtn {
