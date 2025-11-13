@@ -12,7 +12,7 @@ body {
 }
 
 .testimonial-section h2 {
-    font-size: 4vw;
+    font-size: clamp(28px, 4vw, 72px);
     line-height: 1.15;
     font-weight: normal;
     margin-bottom: 32px;
@@ -23,7 +23,7 @@ body {
 
 .testimonial-section .subhead {
     color: #210B02;
-    font-size: 1.2vw;
+    font-size: clamp(14px, 1.2vw, 22px);
     opacity: 0.5;
     margin-bottom: 100px;
     /* more space before video */
@@ -55,7 +55,7 @@ body {
 
 .testimonial-section .quote p {
     margin: 0 0 12px;
-    font-size: 1.5vw;
+    font-size: clamp(16px, 1.5vw, 26px);
     padding-left: 30px;
     line-height: 1.6;
 }
@@ -65,7 +65,7 @@ body {
     color: #210B02;
     font-style: normal;
     padding-left: 30px;
-    font-size: 1.5vw;
+    font-size: clamp(16px, 1.5vw, 26px);
 }
 
 .reviews-section {
@@ -79,7 +79,7 @@ body {
     font-family: "Trirong", serif;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 3vw;
+    font-size: clamp(22px, 3vw, 54px);
     font-weight: normal;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 .review-card p {
-    font-size: 1vw;
+    font-size: clamp(12px, 1vw, 20px);
     line-height: 1.6;
     margin: 0 0 14px;
 }
@@ -137,11 +137,11 @@ body {
 
 .who strong {
     display: block;
-    font-size: 1.2vw;
+    font-size: clamp(14px, 1.2vw, 22px);
 }
 
 .who small {
-    font-size: 1vw;
+    font-size: clamp(12px, 1vw, 20px);
     color: #7a6d67;
 }
 
@@ -173,16 +173,16 @@ body {
 @media (max-width: 768px) {
 
     .review-card p {
-        font-size: 3vw;
+        font-size: clamp(16px, 1.5vw, 26px);
     }
 
     .who strong {
         display: block;
-        font-size: 2vw;
+        font-size: clamp(18px, 2vw, 36px);
     }
 
     .who small {
-        font-size: 2vw;
+        font-size: clamp(18px, 2vw, 36px);
         color: #7a6d67;
     }
 

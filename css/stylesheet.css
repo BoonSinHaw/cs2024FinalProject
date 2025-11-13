@@ -491,22 +491,18 @@ footer a:hover {
     }
 
     .aboutfooter {
-        padding-top: 50px;
         width: 100%;
         text-align: center;
     }
 
     .Discoverfooter {
-        padding-top: 50px;
         width: 100%;
         text-align: center;
     }
 
     .Supportfooter {
-        padding-top: 50px;
         width: 100%;
         text-align: center;
-        padding-bottom: 50px;
     }
 }
 
