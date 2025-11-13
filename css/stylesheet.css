@@ -23,8 +23,8 @@ body {
     }
 
     header * {
-        font-family: "Trirong", serif;
         color: #5A4A42;
+        font-size: 0.9rem;
     }
 
     .AboutDropdown {
@@ -77,6 +77,7 @@ body {
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 4;
         border-radius: 5px;
+
     }
 
     .dropdown-content a {
@@ -84,6 +85,7 @@ body {
         padding: 12px 16px;
         text-decoration: none;
         display: block;
+
     }
 
     .dropdown-content a:hover {
@@ -208,6 +210,8 @@ body {
 
     .description {
         padding-top: 20px;
+        font-size: 0.8rem;
+
 
     }
 
@@ -251,34 +255,36 @@ footer #logo a {
 
 .aboutfooter {
     padding: 100px;
-    width: 13%;
+    width: 10%;
 
 }
 
 .AboutTitle {
     color: #5A4A42;
     padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 .aboutfooter a {
     display: block;
     text-decoration: none;
     padding-top: 10px;
+    font-size: 0.8rem;
+
 }
 
 .Discoverfooter {
     padding: 100px;
-    width: 13%;
+    width: 10%;
 
 }
 
 .DiscoverTitle {
     color: #5A4A42;
     padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
 
 }
 
@@ -286,20 +292,22 @@ footer #logo a {
     display: block;
     text-decoration: none;
     padding-top: 10px;
+    font-size: 0.8rem;
+
 
 }
 
 .Supportfooter {
     padding: 100px;
-    width: 13%;
+    width: 10%;
 
 }
 
 .SupportTitle {
     color: #5A4A42;
     padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
 
 }
 
@@ -307,6 +315,8 @@ footer #logo a {
     display: block;
     text-decoration: none;
     padding-top: 10px;
+    font-size: 0.8rem;
+
 }
 
 footer a:hover {
@@ -318,10 +328,14 @@ footer a:hover {
     margin: auto;
     padding: 20px;
     text-align: center;
+    font-size: 0.6rem;
 }
 
 .PDPA a {
     text-decoration: none;
+    font-size: 0.6rem;
+
+
 }
 
 @media (max-width:1024px) {
@@ -454,10 +468,13 @@ footer a:hover {
         text-align: center;
         padding-top: 50px;
 
+
     }
 
     .description {
         padding-top: 20px;
+        font-size: 0.8rem;
+
 
 
     }
