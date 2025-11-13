@@ -74,7 +74,7 @@ body {
     font-family: "Trirong", serif;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: normal;
 }
 
@@ -209,3 +209,22 @@ body {
     color: #FCFAF4;
 
 }
+
+#one, 
+#three, 
+#five {
+    background-color: #73645C;
+}
+
+#one *, 
+#three *, 
+#five * {
+    color: #FCFAF4 !important;
+}
+
+#one .stars,
+#three .stars,
+#five .stars {
+    color: #E8B4A2 !important; /* blush pink */
+}
+
