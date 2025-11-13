@@ -15,7 +15,8 @@ body {
     top: -400px;
     z-index: 1;
     background-color: transparent !important;
-    opacity: 1 !important;   /* keep text/buttons fully visible */
+    opacity: 1 !important;
+    /* keep text/buttons fully visible */
 }
 
 
@@ -57,7 +58,7 @@ body {
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    font-size: 1.5vw;
+    font-size: clamp(16px, 1.5vw, 26px);
 
 }
 
@@ -158,7 +159,7 @@ body {
 .card h2 em {
     font-family: "Trirong", serif;
     font-weight: normal;
-    font-size: 2vw;
+    font-size: clamp(18px, 2vw, 36px);
     line-height: 1.2;
     color: #FCFAF4;
 

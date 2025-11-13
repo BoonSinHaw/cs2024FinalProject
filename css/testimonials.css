@@ -32,7 +32,7 @@ body {
 
 .testimonial-section .video-box {
     position: relative;
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto 32px;
     aspect-ratio: 16 / 9;
     display: grid;
@@ -47,7 +47,7 @@ body {
 
 .testimonial-section .quote {
     text-align: left;
-    max-width: 60%;
+    width: 60%;
     margin: 24px auto 0;
     padding-left: 16px;
     border-left: 2px solid #210B02;
@@ -172,6 +172,13 @@ body {
 }
 
 @media (max-width: 768px) {
+    .testimonial-section .video-box {
+        width: 100%;
+    }
+
+    .testimonial-section .quote {
+        width: 90%;
+    }
 
     .review-card p {
         font-size: clamp(16px, 1.5vw, 26px);
