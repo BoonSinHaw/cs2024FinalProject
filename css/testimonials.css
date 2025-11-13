@@ -5,27 +5,27 @@ body {
 
 .testimonial-section {
     color: #210B02;
-    padding: 48px 20px 64px;
+    padding: 120px 20px 90px;   /* increased spacing */
     margin: 0 auto;
     text-align: center;
 }
 
 .testimonial-section h2 {
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1.15;
     font-weight: normal;
-    margin: 0 0 10px;
+    margin-bottom: 32px;   /* increased spacing below heading */
     letter-spacing: 0.2px;
     font-family: "Trirong", serif;
-
-
 }
 
 .testimonial-section .subhead {
     color: #210B02;
-    font-size: 2vw;
-    margin: 0 auto 36px;
+    font-size: 1.2vw;
+    opacity: 0.5;
+    margin-bottom: 100px;   /* more space before video */
 }
+
 
 .testimonial-section .video-box {
     position: relative;
@@ -52,7 +52,8 @@ body {
 
 .testimonial-section .quote p {
     margin: 0 0 12px;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    padding-left: 30px;
     line-height: 1.6;
 }
 
@@ -60,7 +61,8 @@ body {
     display: block;
     color: #210B02;
     font-style: normal;
-    font-size: 2vw;
+    padding-left: 30px;
+    font-size: 1.5vw;
 }
 
 .reviews-section {
@@ -74,7 +76,7 @@ body {
     font-family: "Trirong", serif;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: normal;
 }
 
@@ -209,3 +211,22 @@ body {
     color: #FCFAF4;
 
 }
+
+#one, 
+#three, 
+#five {
+    background-color: #73645C;
+}
+
+#one *, 
+#three *, 
+#five * {
+    color: #FCFAF4 !important;
+}
+
+#one .stars,
+#three .stars,
+#five .stars {
+    color: #E8B4A2 !important; /* blush pink */
+}
+

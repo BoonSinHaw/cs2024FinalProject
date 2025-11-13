@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lumeva. - Contact Us </title>
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link rel="stylesheet" href="css/contactus.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumeva. - Contact Us </title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/contactus.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
-        <script src="jQuery/jquery-3.7.1.min.js"></script>
-        <script>
+    <script src="jQuery/jquery-3.7.1.min.js"></script>
+    <script>
         $(document).ready(function () {
             $("#header").load("header.html");
         });
@@ -24,205 +24,195 @@
             $("#footer").load("footer.html");
         });
     </script>
-        <script src="js/scroll.js" defer></script>
+    <script src="js/scroll.js" defer></script>
 
-    </head>
+</head>
 
-    <body>
-        <div id="header"></div>
-        <section class="get-in-touch">
-            <h2>Get In Touch</h2>
-            <p>
-                Have questions? We’re here to help! Send us a message and our
-                support team
-                will get back to you within 1 business day.
-            </p>
-        </section>
-        <section class="contact-wrap">
-            <!-- LEFT: FORM -->
-            <div class="contact-form">
-                <h2>Send Us a Message</h2>
+<body>
+    <div id="header"></div>
+    <section class="get-in-touch">
+        <h2>Get In Touch</h2>
+        <p>
+            Have questions? We’re here to help! Send us a message and our
+            support team
+            will get back to you within 1 business day.
+        </p>
+    </section>
+    <section class="contact-wrap">
+        <!-- LEFT: FORM -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
 
-                <form onsubmit="return false" action="#" method="post"
-                    novalidate>
-                    <label for="name">Name *</label>
-                    <input id="name" name="name" type="text"
-                        placeholder="Your name" required>
+            <form onsubmit="return false" action="#" method="post" novalidate>
+                <label for="name">Name *</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required>
 
-                    <label for="email">Email *</label>
-                    <input id="email" name="email" type="email"
-                        placeholder="your.email@example.com" required>
-                    <label for="phone">Phone Number *</label>
-                    <input type="tel" id="phone" name="phone"
-                        pattern="^(?:\\+65)?[\\s]?[689]\\d{7}$"
-                        placeholder="Phone Number" required>
+                <label for="email">Email *</label>
+                <input id="email" name="email" type="email" placeholder="your.email@example.com" required>
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" pattern="^(?:\\+65)?[\\s]?[689]\\d{7}$"
+                    placeholder="Phone Number" required>
 
-                    <div class="row-2">
-                        <div>
-                            <label for="interest">I’m interested in *</label>
-                            <select id="interest" name="interest" required>
-                                <option value disabled selected>Select
-                                    one</option>
-                                <option value="ipl_device">At-home IPL
-                                    device</option>
-                                <option value="skincare">Skincare
-                                    products</option>
-                                <option value="clinic_treatments">Professional
-                                    treatments</option>
-                                <option value="collaboration">Business /
-                                    Collaboration</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="concern">Main concern *</label>
-                            <select id="concern" name="concern" required>
-                                <option value disabled selected>Select
-                                    one</option>
-                                <option value="hair_growth">Excess hair
-                                    growth</option>
-                                <option value="sensitive_skin">Sensitive
-                                    skin</option>
-                                <option value="dark_spots">Dark spots /
-                                    irritation</option>
-                                <option value="maintenance">After-care /
-                                    maintenance</option>
-                            </select>
+                <div class="row-2">
+                    <div>
+                        <label for="interest">I’m interested in *</label>
+                        <select id="interest" name="interest" required>
+                            <option value disabled selected>Select
+                                one</option>
+                            <option value="ipl_device">At-home IPL
+                                device</option>
+                            <option value="skincare">Skincare
+                                products</option>
+                            <option value="clinic_treatments">Professional
+                                treatments</option>
+                            <option value="collaboration">Business /
+                                Collaboration</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="concern">Main concern *</label>
+                        <select id="concern" name="concern" required>
+                            <option value disabled selected>Select
+                                one</option>
+                            <option value="hair_growth">Excess hair
+                                growth</option>
+                            <option value="sensitive_skin">Sensitive
+                                skin</option>
+                            <option value="dark_spots">Dark spots /
+                                irritation</option>
+                            <option value="maintenance">After-care /
+                                maintenance</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+
+                <!-- Lead source & contact preference -->
+                <div class="row-2">
+                    <div>
+                        <label for="referral" class="referral">How did you hear about
+                            us?</label>
+                        <select id="referral" name="referral">
+                            <option value disabled selected>Select
+                                one</option>
+                            <option value="instagram_tiktok">Instagram /
+                                TikTok</option>
+                            <option value="google">Google Search</option>
+                            <option value="friend">Friend / Word of
+                                Mouth</option>
+                            <option value="ad">Online Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="radio-label">Preferred contact</span>
+                        <div class="radio-row">
+                            <label><input type="radio" name="contact_method" value="email" checked> Email</label>
+                            <label><input type="radio" name="contact_method" value="whatsapp"> WhatsApp</label>
+                            <label><input type="radio" name="contact_method" value="phone"> Phone</label>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Message -->
-                    <label for="message">Message *</label>
-                    <textarea id="message" name="message" rows="5"
-                        placeholder="How can we help you?" required></textarea>
+                <!-- Privacy -->
+                <label class="check-line">
+                    <input type="checkbox" required>
+                    I agree to Lumeva’s Privacy Policy and understand my
+                    data will only be used to respond to my enquiry.
+                </label>
 
-                    <!-- Lead source & contact preference -->
-                    <div class="row-2">
-                        <div>
-                            <label for="referral">How did you hear about
-                                us?</label>
-                            <select id="referral" name="referral">
-                                <option value disabled selected>Select
-                                    one</option>
-                                <option value="instagram_tiktok">Instagram /
-                                    TikTok</option>
-                                <option value="google">Google Search</option>
-                                <option value="friend">Friend / Word of
-                                    Mouth</option>
-                                <option value="ad">Online Advertisement</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div>
-                            <span class="radio-label">Preferred contact</span>
-                            <div class="radio-row">
-                                <label><input type="radio" name="contact_method"
-                                        value="email" checked> Email</label>
-                                <label><input type="radio" name="contact_method"
-                                        value="whatsapp"> WhatsApp</label>
-                                <label><input type="radio" name="contact_method"
-                                        value="phone"> Phone</label>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Deadlink button -->
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
 
-                    <!-- Privacy -->
-                    <label class="check-line">
-                        <input type="checkbox" required>
-                        I agree to Lumeva’s Privacy Policy and understand my
-                        data will only be used to respond to my enquiry.
-                    </label>
+        <!-- RIGHT: INFO CARDS -->
+        <aside class="contact-side">
+            <h3>Other Ways to Reach Us</h3>
 
-                    <!-- Deadlink button -->
-                    <button type="submit">Send Message</button>
-                </form>
+            <div class="card">
+                <div class="card-icon">✉️</div>
+                <div>
+                    <div class="card-title">Email Us</div>
+                    <div class="card-sub"><a href="#">Lumeva@gmail.com</a></div>
+                    <div class="card-note">Response within 1 business
+                        day</div>
+                </div>
             </div>
 
-            <!-- RIGHT: INFO CARDS -->
-            <aside class="contact-side">
-                <h3>Other Ways<br>to Reach Us</h3>
-
-                <div class="card">
-                    <div class="card-icon">✉️</div>
-                    <div>
-                        <div class="card-title">Email Us</div>
-                        <div class="card-sub"><a
-                                href="#">Lumeva@gmail.com</a></div>
-                        <div class="card-note">Response within 1 business
-                            day</div>
-                    </div>
+            <a class="card" href="#" aria-disabled="true">
+                <div class="card-icon">💬</div>
+                <div>
+                    <div class="card-title">Chat on WhatsApp</div>
+                    <div class="card-sub">+65 9785 6214</div>
+                    <div class="card-note">Available during business
+                        hours</div>
                 </div>
+            </a>
 
-                <a class="card" href="#" aria-disabled="true">
-                    <div class="card-icon">💬</div>
-                    <div>
-                        <div class="card-title">Chat on WhatsApp</div>
-                        <div class="card-sub">+65 9785 6214</div>
-                        <div class="card-note">Available during business
-                            hours</div>
-                    </div>
-                </a>
-
-                <div class="card soft">
-                    <div class="card-icon">⏲️</div>
-                    <div>
-                        <div class="card-title">Support Hours</div>
-                        <div class="card-note">Mon–Fri: 9:00 AM – 6:00 PM
-                            (SGT)</div>
-                        <div class="card-note">Sat: 10:00 AM – 4:00 PM
-                            (SGT)</div>
-                        <div class="card-note">Sun: Closed</div>
-                    </div>
+            <div class="card soft">
+                <div class="card-icon">⏲️</div>
+                <div>
+                    <div class="card-title">Support Hours</div>
+                    <div class="card-note">Mon–Fri: 9:00 AM – 6:00 PM
+                        (SGT)</div>
+                    <div class="card-note">Sat: 10:00 AM – 4:00 PM
+                        (SGT)</div>
+                    <div class="card-note">Sun: Closed</div>
                 </div>
+            </div>
 
-                <div class="card soft">
-                    <div class="card-icon">📍</div>
-                    <div>
-                        <div class="card-title">Office Location</div>
-                        <div class="card-note">123 Beauty Boulevard</div>
-                        <div class="card-note">#05-67 Luxury Tower</div>
-                        <div class="card-note">Singapore 123456</div>
-                    </div>
+            <div class="card soft">
+                <div class="card-icon">📍</div>
+                <div>
+                    <div class="card-title">Office Location</div>
+                    <div class="card-note">123 Beauty Boulevard</div>
+                    <div class="card-note">#05-67 Luxury Tower</div>
+                    <div class="card-note">Singapore 123456</div>
                 </div>
+            </div>
 
-                <a class="card" href="FAQ.html" aria-disabled="true">
+            <a class="card" href="FAQ.html" aria-disabled="true">
+                <div class="card-icon">📖</div>
+                <div>
                     <div class="card-title">Before You Contact Us</div>
                     <div class="card-note">Visit our FAQ for quick
                         answers.</div>
                     <div class="card-cta">Visit FAQ →</div>
-                </a>
-            </aside>
-        </section>
-        <section class="visit-office">
-            <h2>Visit Our Office</h2>
+                </div>
+            </a>
+        </aside>
+    </section>
+    <section class="visit-office">
+        <h2>Visit Our Office</h2>
 
-            <div class="map-container">
-                <!-- Google Maps Embed -->
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8162115870377!2d103.85195931534992!3d1.2902709621221805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a7ed9b0e0f%3A0x94d4a94de4ec09d8!2sMarina%20Bay%20Sands%2C%20Singapore!5e0!3m2!1sen!2ssg!4v1700000000000!5m2!1sen!2ssg"
-                    width="100%"
-                    height="100%"
-                    style="border:0;"
-                    allowfullscreen
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
+        <div class="map-container">
+            <!-- Google Maps Embed -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8162115870377!2d103.85195931534992!3d1.2902709621221805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a7ed9b0e0f%3A0x94d4a94de4ec09d8!2sMarina%20Bay%20Sands%2C%20Singapore!5e0!3m2!1sen!2ssg!4v1700000000000!5m2!1sen!2ssg"
+                width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
 
-            <p class="address">
-                123 Beauty Boulevard, #05-67 Luxury Tower, Singapore 123456
+        <p class="address">
+            123 Beauty Boulevard, #05-67 Luxury Tower, Singapore 123456
+        </p>
+    </section>
+    <section class="reply-time">
+        <div class="reply-box">
+            <h2>We reply within 1 business day</h2>
+            <p>
+                Your questions and concerns are important to us. Our
+                dedicated support team is
+                here to ensure you have the best experience with Lumeva.
             </p>
-        </section>
-        <section class="reply-time">
-            <div class="reply-box">
-                <h2>We reply within 1 business day</h2>
-                <p>
-                    Your questions and concerns are important to us. Our
-                    dedicated support team is
-                    here to ensure you have the best experience with Lumeva.
-                </p>
-            </div>
-        </section>
-        <div id="footer"></div>
-    </body>
+        </div>
+    </section>
+    <div id="footer"></div>
+</body>
 
 </html>

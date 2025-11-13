@@ -6,35 +6,38 @@ body {
 .banner {
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.7);
+
 }
 
 .banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: opacity(80%);
 }
 
 .banner-text {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 90%;
+    width: 50%;
     padding: 20px rem;
-    background-color: #E5C9C3;
+    /* background-color: #E5C9C3; */
     border-radius: 20px;
-    filter: opacity(100%);
+    /* filter: opacity(80%); */
 
 }
 
 .banner-text p {
     font-family: "Trirong", serif;
-    color: #210B02;
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    color: white;
+    font-size: clamp(1.0rem, 3vw, 2.5rem);
     line-height: 1.3;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
     filter: opacity(100%) !important;
 
 }
@@ -49,20 +52,20 @@ body {
     display: grid;
     grid-template-columns: 1.1fr 1fr;
     gap: 40px;
-    align-items: center;
+    align-items: start;
 }
 
 @media (max-width: 900px) {
     .hero-container {
         grid-template-columns: 1fr;
-        text-align: center;
+        text-align: start;
     }
 }
 
 /* Text */
 .hero-text h1 {
     font-family: "Trirong", serif;
-    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-size: clamp(2.0rem, 3vw, 3.0rem);
     color: #210B02;
     line-height: 1.1;
     margin-bottom: 1rem;
@@ -71,8 +74,8 @@ body {
 
 .hero-text p {
     color: #8a8078;
-    line-height: 1.8;
-    font-size: clamp(1rem, 1.4vw, 1.1rem);
+    line-height: 1.5;
+    font-size: clamp(0.8rem, 1.2vw, 1.0rem);
     margin-bottom: 1.5rem;
 }
 
@@ -90,6 +93,14 @@ body {
     grid-template-columns: 28px 1fr;
     align-items: start;
     gap: 10px;
+    font-size: clamp(0.8rem, 1.2vw, 1.0rem);
+    margin-top: -30px;
+
+}
+
+.hero-list p {
+    font-size: clamp(0.8rem, 1.2vw, 1.0rem);
+
 }
 
 .check {
@@ -98,6 +109,7 @@ body {
     border-radius: 50%;
     background-color: #e3c9b9;
     position: relative;
+    margin-top: 30px;
 }
 
 .check::after {
@@ -156,6 +168,7 @@ body {
 
 /* Image */
 .hero-image {
+    margin-top: 30px;
     position: relative;
 }
 
@@ -312,9 +325,10 @@ body {
     font-family: "Trirong", serif;
     font-weight: 500;
     line-height: 1.15;
-    font-size: clamp(2rem, 4.2vw, 3rem);
+    font-size: clamp(2.0rem, 3vw, 3.0rem);
     color: #210B02;
     margin: 0 0 12px;
+    margin-top: 10px;
 }
 
 .luxury__lead {
@@ -323,6 +337,11 @@ body {
     line-height: 1.8;
     margin: 0 0 18px;
     max-width: 56ch;
+}
+
+.luxury__media {
+    display: grid;
+    gap: 150px
 }
 
 /* Image frame */
@@ -496,7 +515,7 @@ body {
     color: #210B02;
     border-radius: 999px;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     padding: 6px 14px;
     align-self: flex-start;
     margin-bottom: 1.3rem;
@@ -517,12 +536,14 @@ body {
 
 .review-user strong {
     color: #210B02;
+    font-size: 0.8rem;
+
     font-weight: 600;
 }
 
 .review-user span {
     color: #7b7b7b;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .stats {
@@ -677,6 +698,7 @@ body {
     color: #210B02;
     font-weight: 600;
     text-decoration: none;
+    font-size: 0.8rem;
 }
 
 .faq-link:hover {
@@ -697,6 +719,8 @@ body {
     color: #3a2418;
     font-weight: 600;
     text-decoration: none;
+    font-size: 0.8rem;
+
 }
 
 .faq-more-link:hover {
@@ -708,7 +732,7 @@ body {
     display: flex;
     justify-content: center;
     padding: clamp(60px, 8vw, 100px) 20px;
-    color: #3a2418;
+
 }
 
 .cta-container {
@@ -716,7 +740,7 @@ body {
     max-width: 600px;
     min-width: 80%;
     border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     text-align: center;
 }
@@ -734,6 +758,8 @@ body {
     letter-spacing: 1px;
     opacity: 0.8;
     margin-bottom: 8px;
+    color: white;
+
 }
 
 .cta-top h2 {
@@ -741,12 +767,16 @@ body {
     font-weight: 500;
     font-size: clamp(2rem, 4vw, 2.6rem);
     margin: 0;
+    color: white;
+
 }
 
 .cta-sub {
     font-size: 1rem;
     opacity: 0.9;
     margin-top: 5px;
+    color: white;
+
 }
 
 /* Price block */
@@ -819,6 +849,8 @@ body {
     border-radius: 10px;
     text-decoration: none;
     transition: background 0.3s;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .cta-btn:hover {

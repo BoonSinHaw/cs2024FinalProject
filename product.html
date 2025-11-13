@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lumeva. - Product</title>
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link rel="stylesheet" href="css/product.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumeva. - Product</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
-        <script src="jQuery/jquery-3.7.1.min.js"></script>
-        <script>
+    <script src="jQuery/jquery-3.7.1.min.js"></script>
+    <script>
         $(document).ready(function () {
             $("#header").load("header.html");
         });
@@ -23,197 +23,194 @@
             $("#footer").load("footer.html");
         });
     </script>
-        <script src="js/product.js" defer></script>
-        <script src="js/scroll.js" defer></script>
+    <script src="js/product.js" defer></script>
+    <script src="js/scroll.js" defer></script>
 
-    </head>
+</head>
 
-    <body>
-        <div id="header"></div>
-        <div class="lumeva-hero">
-            <h1>Meet Lumeva IPL —<br>your at-home beauty breakthrough.</h1>
-            <p class="subtext">
-                Experience professional-grade hair removal in the comfort of
-                your home.
-                Safe, effective, and designed for you.
-            </p>
-            <a
-                href="https://shopee.sg/Philips-Lumea-Advanced-IPL-Hair-Removal-Device-SC1994-00-i.414088011.20673138679?extraParams=%7B%22display_model_id%22%3A220933078191%2C%22model_selection_logic%22%3A3%7D&sp_atk=a0d09971-3571-40f0-8761-c63765a7fe54&xptdk=a0d09971-3571-40f0-8761-c63765a7fe54"
-                class="cta-link">Get Yours Now</a>
-        </div>
-        <div class="lumeva-section">
-            <h2>Elegance Meets Innovation</h2>
-            <div class="lumeva-content">
-                <div class="lumeva-image-slider">
-                    <img src="images/design1.png" class="slide active"
-                        alt="Image 1">
-                    <img src="images/design2.jpg" class="slide" alt="Image 2">
-                    <img src="images/design3.jpg" class="slide" alt="Image 3">
-                    <img src="images/design4.webp" class="slide" alt="Image 4">
-                    <img src="images/design5.png" class="slide" alt="Image 5">
+<body>
+    <div id="header"></div>
+    <div class="lumeva-hero">
+        <h1>Meet Lumeva IPL —<br>your at-home beauty breakthrough.</h1>
+        <p class="subtext">
+            Experience professional-grade hair removal in the comfort of
+            your home.
+            Safe, effective, and designed for you.
+        </p>
+        <a href="https://shopee.sg/Philips-Lumea-Advanced-IPL-Hair-Removal-Device-SC1994-00-i.414088011.20673138679?extraParams=%7B%22display_model_id%22%3A220933078191%2C%22model_selection_logic%22%3A3%7D&sp_atk=a0d09971-3571-40f0-8761-c63765a7fe54&xptdk=a0d09971-3571-40f0-8761-c63765a7fe54"
+            class="cta-link">Get Yours Now</a>
+    </div>
+    <div class="lumeva-section">
+        <h2>Elegance Meets Innovation</h2>
+        <div class="lumeva-content">
+            <div class="lumeva-image-slider">
+                <img src="images/design1.png" class="slide active" alt="Image 1">
+                <img src="images/design2.jpg" class="slide" alt="Image 2">
+                <img src="images/design3.jpg" class="slide" alt="Image 3">
+                <img src="images/design4.webp" class="slide" alt="Image 4">
+                <img src="images/design5.png" class="slide" alt="Image 5">
 
-                    <div class="arrow left" onclick="prevSlide()">&#10094;</div>
-                    <div class="arrow right"
-                        onclick="nextSlide()">&#10095;</div>
+                <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+                <div class="arrow right" onclick="nextSlide()">&#10095;</div>
 
-                    <div class="dots">
-                        <span class="dot active"
-                            onclick="currentSlide(0)"></span>
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        <span class="dot" onclick="currentSlide(4)"></span>
-                    </div>
-                </div>
-
-                <div class="lumeva-text">
-                    <h3>Premium Design</h3>
-                    <p>
-                        Lumeva’s ergonomic design fits perfectly in your hand,
-                        with intuitive controls and a luxurious matte finish.
-                        The sleek rose-gold accents add a touch of elegance to
-                        your beauty routine.
-                    </p>
-                    <ul>
-                        <li>Ergonomic curved design for comfortable grip</li>
-                        <li>LED display for easy intensity monitoring</li>
-                        <li>Cordless and rechargeable for convenience</li>
-                        <li>Lightweight at only 300g</li>
-                    </ul>
+                <div class="dots">
+                    <span class="dot active" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </div>
+
+            <div class="lumeva-text">
+                <h3>Premium Design</h3>
+                <p>
+                    Lumeva’s ergonomic design fits perfectly in your hand,
+                    with intuitive controls and a luxurious matte finish.
+                    The sleek rose-gold accents add a touch of elegance to
+                    your beauty routine.
+                </p>
+                <ul>
+                    <li>Ergonomic curved design for comfortable grip</li>
+                    <li>LED display for easy intensity monitoring</li>
+                    <li>Cordless and rechargeable for convenience</li>
+                    <li>Lightweight at only 300g</li>
+                </ul>
+            </div>
         </div>
-        <div class="spanBanner"><img src="images/span.jpg"></div>
-        <div class="specs">
-            <h2>Technical Specifications</h2>
+    </div>
+    <div class="spanBanner"><img src="images/span.jpg"></div>
+    <div class="specs">
+        <h2>Technical Specifications</h2>
 
-            <div class="specs-card">
-                <div class="specs-grid">
-                    <!-- Left column -->
-                    <div class="spec-col">
-                        <div class="spec-item">
-                            <h4>Energy Output</h4>
-                            <p>3–6 J/cm²</p>
-                        </div>
-                        <div class="spec-item">
-                            <h4>Power Source</h4>
-                            <p>Rechargeable Li-ion battery</p>
-                        </div>
-                        <div class="spec-item">
-                            <h4>Intensity Levels</h4>
-                            <p>5 adjustable levels</p>
-                        </div>
-                        <div class="spec-item">
-                            <h4>Compatible Areas</h4>
-                            <p>Face, body, bikini line</p>
-                        </div>
+        <div class="specs-card">
+            <div class="specs-grid">
+                <!-- Left column -->
+                <div class="spec-col">
+                    <div class="spec-item">
+                        <h4>Energy Output</h4>
+                        <p>3–6 J/cm²</p>
                     </div>
+                    <div class="spec-item">
+                        <h4>Power Source</h4>
+                        <p>Rechargeable Li-ion battery</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Intensity Levels</h4>
+                        <p>5 adjustable levels</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Compatible Areas</h4>
+                        <p>Face, body, bikini line</p>
+                    </div>
+                </div>
 
-                    <!-- Right column -->
-                    <div class="spec-col">
-                        <div class="spec-item">
-                            <h4>Flash Lifetime</h4>
-                            <p>300,000 flashes</p>
-                        </div>
-                        <div class="spec-item">
-                            <h4>Battery Life</h4>
-                            <p>Up to 200 flashes per charge</p>
-                        </div>
-                        <div class="spec-item">
-                            <h4>Treatment Window</h4>
-                            <p>3 cm²</p>
-                        </div>
-                        <div class="spec-item">
-                            <h4>Warranty</h4>
-                            <p>2 years international warranty</p>
-                        </div>
+                <!-- Right column -->
+                <div class="spec-col">
+                    <div class="spec-item">
+                        <h4>Flash Lifetime</h4>
+                        <p>300,000 flashes</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Battery Life</h4>
+                        <p>Up to 200 flashes per charge</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Treatment Window</h4>
+                        <p>3 cm²</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Warranty</h4>
+                        <p>2 years international warranty</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="features-section">
-            <h2>Key Features</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <h3>Gentle on Skin</h3>
-                    <p>
-                        Our advanced IPL technology is clinically proven to be
-                        gentle
-                        on all skin types, with minimal discomfort and no
-                        downtime.
-                    </p>
-                </div>
+    </div>
+    <div class="features-section">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Gentle on Skin</h3>
+                <p>
+                    Our advanced IPL technology is clinically proven to be
+                    gentle
+                    on all skin types, with minimal discomfort and no
+                    downtime.
+                </p>
+            </div>
 
-                <div class="feature-card">
-                    <h3>Smart Skin Sensor</h3>
-                    <p>
-                        Automatically detects your skin tone and recommends
-                        the optimal intensity level for safe, effective
-                        treatment.
-                    </p>
-                </div>
+            <div class="feature-card">
+                <h3>Smart Skin Sensor</h3>
+                <p>
+                    Automatically detects your skin tone and recommends
+                    the optimal intensity level for safe, effective
+                    treatment.
+                </p>
+            </div>
 
-                <div class="feature-card">
-                    <h3>Cordless Rechargeable</h3>
-                    <p>
-                        Freedom to use anywhere with our long-lasting battery.
-                        One charge provides enough power for a full-body
-                        treatment.
-                    </p>
-                </div>
+            <div class="feature-card">
+                <h3>Cordless Rechargeable</h3>
+                <p>
+                    Freedom to use anywhere with our long-lasting battery.
+                    One charge provides enough power for a full-body
+                    treatment.
+                </p>
             </div>
         </div>
-        <div class="compare">
-            <h2>Lumeva vs Salon Treatments</h2>
+    </div>
+    <div class="compare">
+        <h2>Lumeva vs Salon Treatments</h2>
 
-            <div class="compare-card">
-                <table class="compare-table">
-                    <thead>
-                        <tr>
-                            <th>Feature</th>
-                            <th>Lumeva IPL</th>
-                            <th>Salon Treatment</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Cost</td>
-                            <td>One-time payment</td>
-                            <td>$2000–5000+ total</td>
-                        </tr>
-                        <tr>
-                            <td>Convenience</td>
-                            <td>At home, anytime</td>
-                            <td>Appointments required</td>
-                        </tr>
-                        <tr>
-                            <td>Privacy</td>
-                            <td>Complete privacy</td>
-                            <td>Shared space</td>
-                        </tr>
-                        <tr>
-                            <td>Results</td>
-                            <td>92% reduction in 4 weeks</td>
-                            <td>85–95% reduction</td>
-                        </tr>
-                        <tr>
-                            <td>Pain Level</td>
-                            <td>Virtually painless</td>
-                            <td>Mild to moderate</td>
-                        </tr>
-                        <tr>
-                            <td>Maintenance</td>
-                            <td>Easy touch-ups</td>
-                            <td>Additional sessions needed</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <div class="compare-card">
+            <table class="compare-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Lumeva IPL</th>
+                        <th>Salon Treatment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cost</td>
+                        <td>One-time payment</td>
+                        <td>$2000–5000+ total</td>
+                    </tr>
+                    <tr>
+                        <td>Convenience</td>
+                        <td>At home, anytime</td>
+                        <td>Appointments required</td>
+                    </tr>
+                    <tr>
+                        <td>Privacy</td>
+                        <td>Complete privacy</td>
+                        <td>Shared space</td>
+                    </tr>
+                    <tr>
+                        <td>Results</td>
+                        <td>92% reduction in 4 weeks</td>
+                        <td>85–95% reduction</td>
+                    </tr>
+                    <tr>
+                        <td>Pain Level</td>
+                        <td>Virtually painless</td>
+                        <td>Mild to moderate</td>
+                    </tr>
+                    <tr>
+                        <td>Maintenance</td>
+                        <td>Easy touch-ups</td>
+                        <td>Additional sessions needed</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="compatibility">
-            <h2>Suitable Hair and Skin Types</h2>
-            <img src="images/Compatibility.jpg"></div>
-        <div id="footer"></div>
-    </body>
+    </div>
+    <div class="compatibility">
+        <h2>Suitable Hair and Skin Types</h2>
+        <img src="images/Compatibility.jpg">
+    </div>
+    <div id="footer"></div>
+</body>
 
 </html>

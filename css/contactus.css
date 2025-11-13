@@ -3,13 +3,7 @@
 
   }
 
-  * {
-      font-family: "Trirong", serif;
-
-  }
-
   .get-in-touch {
-      font-family: "Trirong", serif;
       text-align: center;
       padding: 90px 20px;
       background: linear-gradient(to bottom, #F7E9E1, #F7F3EE);
@@ -20,6 +14,8 @@
       font-size: clamp(2rem, 5vw, 3rem);
       margin-bottom: 14px;
       font-weight: 600;
+      font-family: "Trirong", serif;
+
   }
 
   .get-in-touch p {
@@ -43,7 +39,6 @@
       max-width: 1100px;
       margin: 0 auto;
       padding: 28px 18px 80px;
-      font-family: "Trirong", serif;
       color: #2b2b2b;
   }
 
@@ -62,7 +57,7 @@
   }
 
   .contact-form h2 {
-      font-size: clamp(1.6rem, 3.2vw, 2.2rem);
+      font-size: clamp(1.3rem, 2.5vw, 2rem);
       margin: 6px 0 18px;
       font-weight: normal;
       font-family: "Trirong", serif;
@@ -76,10 +71,9 @@
   }
 
   .contact-form label {
-      font-size: .95rem;
+      font-size: .6rem;
       color: #6e5e53;
       margin-top: 8px;
-      font-family: "Trirong", serif;
 
   }
 
@@ -97,6 +91,7 @@
 
   input[type="text"],
   input[type="email"],
+  input[type="tel"],
   select,
   textarea {
       width: 100%;
@@ -106,7 +101,7 @@
       border-radius: 14px;
       background: #fff;
       color: #2b2b2b;
-      font: 500 1rem/1.2 "Trirong", serif;
+      font-size: 0.5rem;
       outline: none;
   }
 
@@ -120,7 +115,9 @@
       color: #b7aaa1;
   }
 
-  input:focus, textarea:focus, select:focus {
+  input:focus,
+  textarea:focus,
+  select:focus {
       border-color: #cdb7a8;
       box-shadow: 0 0 0 3px rgba(205, 183, 168, .35);
   }
@@ -129,7 +126,7 @@
       display: block;
       margin-bottom: 6px;
       color: #6e5e53;
-      font-size: .95rem;
+      font-size: .6rem;
   }
 
   .radio-row {
@@ -141,7 +138,7 @@
 
   .radio-row label {
       color: #433a34;
-      font-size: .98rem;
+      font-size: .0.7rem;
   }
 
   .check-line {
@@ -166,7 +163,7 @@
       border: 0;
       border-radius: 9999px;
       padding: 12px 26px;
-      font: 600 1rem/1 "Trirong", serif;
+      font-size: 0.8rem;
       cursor: pointer;
       transition: background .2s ease, transform .05s ease;
   }
@@ -181,9 +178,10 @@
 
   /* RIGHT: info cards */
   .contact-side h3 {
-      font-size: clamp(1.4rem, 2.8vw, 2rem);
+      font-family: "Trirong", serif;
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
       margin: 6px 0 16px;
-      font-weight: 600;
+      font-weight: 400;
   }
 
   .card {
@@ -213,38 +211,42 @@
   .card-icon {
       font-size: 20px;
       line-height: 1;
-      margin-top: 2px;
+      margin-top: 10px;
   }
 
   .card-title {
-      font-weight: 600;
+      font-weight: 400;
       margin-bottom: 4px;
+      font-family: 'Trirong', serif;
   }
 
   .card-sub {
       color: #6e5e53;
+      font-size: .7rem;
+
   }
 
   .card-sub a {
       text-decoration: none;
       color: #6e5e53;
+      font-size: .7rem;
+
 
   }
 
   .card-note {
       color: #8b7a6f;
-      font-size: .95rem;
+      font-size: .7rem;
       line-height: 1.4;
   }
 
   .card-cta {
       margin-top: 4px;
       color: #6c5a4e;
-      font-weight: 600;
+      font-size: 0.8rem;
   }
 
   .visit-office {
-      font-family: "Trirong", serif;
       text-align: center;
       padding: 100px 20px;
       color: #2b221c;
@@ -252,8 +254,9 @@
 
   .visit-office h2 {
       font-size: clamp(2rem, 4vw, 2.6rem);
-      font-weight: 600;
+      font-weight: 400;
       margin-bottom: 40px;
+      font-family: 'trirong', serif;
   }
 
   .map-container {
@@ -284,7 +287,6 @@
   }
 
   .reply-time {
-      font-family: "Trirong", serif;
       text-align: center;
       padding: 80px 20px;
   }
@@ -315,4 +317,12 @@
       .reply-box {
           padding: 60px 18px;
       }
+  }
+
+  .faq-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+      padding-left: 52px;
+
   }
