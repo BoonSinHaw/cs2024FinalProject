@@ -141,25 +141,28 @@ body {
 }
 
 .card {
-    background-color: #73645C;
-    color: #FCFAF4;
+    background-color: #8b6c5b;
     border-radius: 25px;
     padding: 15px;
-    min-height: 230px;
+    min-height: 300px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
 }
 
-.card h2 {
+.card h2 em {
     font-family: "Trirong", serif;
     font-weight: bold;
     font-size: 30px;
     line-height: 1.2;
+    color: #FCFAF4;
+
 }
 
 .card p {
     font-size: 20px;
     font-family: "Trirong", serif;
+    color: #FCFAF4;
+
 
 }
 
@@ -225,21 +228,16 @@ body {
 
 .protection-right {
     width: 40%;
-    display: flex;
-    flex-direction: column;
     gap: 25px;
 }
 
-.video-box {
-    height: 200px;
-
-}
 
 .image-box img {
     margin-top: 10px;
     width: 100%;
     border-radius: 20px;
 }
+
 
 
 
