@@ -85,7 +85,7 @@ body {
 .steps-title {
     font-family: 'trirong', serif;
     text-align: center;
-    font-size: 4vw;
+    font-size: clamp(18px, 2vw, 36px);
     margin-bottom: 2.5rem;
     color: #210B02;
 }
@@ -233,7 +233,6 @@ body {
 
     .comfort-icon {
         margin-top: 25px;
-        background-color: #210B02;
         aspect-ratio: 1/1;
         height: 80%;
     }

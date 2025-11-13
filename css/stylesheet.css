@@ -233,6 +233,7 @@ body {
     background-color: #F5EFE9;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 footer * {
